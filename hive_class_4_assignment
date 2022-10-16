@@ -88,3 +88,18 @@ from sales_order_data_csv_assignment insert overwrite table sales_order_data_ass
           4724162.593383789
           1791486.7086791992
           Time taken: 37.56 seconds, Fetched: 3 row(s)
+
+    b.  Calculate the total sales for each quarter
+
+          select Sum(sales) as TotalSales,qtr_id as quarters from sales_order_data_assignment_orc group by qtr_id;
+          
+          OK
+          2350817.726501465	    1
+          2048120.3029174805	2
+          1758910.808959961	    3
+          3874780.010925293	    4
+          Time taken: 31.356 seconds, Fetched: 4 row(s)
+          
+          
+          
+          
