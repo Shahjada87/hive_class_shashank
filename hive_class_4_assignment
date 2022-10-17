@@ -95,7 +95,7 @@ from sales_order_data_csv_assignment insert overwrite table sales_order_data_ass
           
           OK
           2350817.726501465	    1
-          2048120.3029174805	2
+          2048120.3029174805    	2
           1758910.808959961	    3
           3874780.010925293	    4
           Time taken: 31.356 seconds, Fetched: 4 row(s)
